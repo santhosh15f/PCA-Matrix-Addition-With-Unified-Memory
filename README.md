@@ -4,10 +4,10 @@ performance? If you can, check performance with nvprof or nvvp.
 ## Aim:
 To perform Matrix addition with unified memory and check its performance with nvprof.
 ## Procedure:
-1.Include the required files and library.
-2.Introduce a function named "initialData","sumMatrixOnHost","checkResult" to return the initialize the data , perform matrix summation on the host and then check the result.
-3.Create a grid 2D block 2D global function to perform matrix on the GPU.
-4.Declare the main function and set up the device & data size of matrix , perform memory allocation on host memory & initialize the data at host side then add matrix at host side for result checks followed by invoking kernel at host side. Check the kernel error, and check device for results.Finally free the device global memory and reset device.
+1.Include the required files and library.</br>
+2.Introduce a function named "initialData","sumMatrixOnHost","checkResult" to return the initialize the data , perform matrix summation on the host and then check the result.</br>
+3.Create a grid 2D block 2D global function to perform matrix on the GPU.</br>
+4.Declare the main function and set up the device & data size of matrix , perform memory allocation on host memory & initialize the data at host side then add matrix at host side for result checks followed by invoking kernel at host side. Check the kernel error, and check device for results.Finally free the device global memory and reset device.</br>
 5.Execute the program and run the terminal.
 ## program:
 With Memset
